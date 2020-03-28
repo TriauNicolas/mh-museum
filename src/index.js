@@ -1241,114 +1241,128 @@ document.addEventListener('click', () => {
  */
 
 
-const hitboxDiablo = new THREE.Mesh(
-    new THREE.BoxGeometry(10, 1.5, 15),
-    new THREE.MeshNormalMaterial()
-)
-hitboxDiablo.position.set(- 40, 0.5, - 55)
-hitboxDiablo.name = 'diablo'
-hitboxDiablo.visible = false
-scene.add(hitboxDiablo)
+// const hitboxDiablo = new THREE.Mesh(
+//     new THREE.BoxGeometry(10, 1.5, 15),
+//     new THREE.MeshNormalMaterial()
+// )
+// hitboxDiablo.position.set(- 40, 0.5, - 55)
+// hitboxDiablo.name = 'diablo'
+// hitboxDiablo.visible = false
+// scene.add(hitboxDiablo)
 
 
-const hitboxRathaloss = new THREE.Mesh(
-    new THREE.BoxGeometry(10, 1, 15),
-    new THREE.MeshNormalMaterial()
-)
-hitboxRathaloss.position.set(35, 0.5, - 60)
-hitboxRathaloss.visible = false
-scene.add(hitboxRathaloss)
+// const hitboxRathaloss = new THREE.Mesh(
+//     new THREE.BoxGeometry(10, 1, 15),
+//     new THREE.MeshNormalMaterial()
+// )
+// hitboxRathaloss.position.set(35, 0.5, - 60)
+// hitboxRathaloss.visible = false
+// scene.add(hitboxRathaloss)
 
 
-const hitboxUragaan = new THREE.Mesh(
-    new THREE.BoxGeometry(10, 1, 15),
-    new THREE.MeshNormalMaterial()
-)
-hitboxUragaan.position.set(35, 0.5, - 200)
-hitboxUragaan.visible = false
-scene.add(hitboxUragaan)
+// const hitboxUragaan = new THREE.Mesh(
+//     new THREE.BoxGeometry(10, 1, 15),
+//     new THREE.MeshNormalMaterial()
+// )
+// hitboxUragaan.position.set(35, 0.5, - 200)
+// hitboxUragaan.visible = false
+// scene.add(hitboxUragaan)
 
 
-const hitboxDeviljho = new THREE.Mesh(
-    new THREE.BoxGeometry(10, 1, 15),
-    new THREE.MeshNormalMaterial()
-)
-hitboxDeviljho.position.set(- 35, 0.5, - 185)
-hitboxDeviljho.name = 'deviljho'
-hitboxDeviljho.visible = false
-scene.add(hitboxDeviljho)
+// const hitboxDeviljho = new THREE.Mesh(
+//     new THREE.BoxGeometry(10, 1, 15),
+//     new THREE.MeshNormalMaterial()
+// )
+// hitboxDeviljho.position.set(- 35, 0.5, - 185)
+// hitboxDeviljho.name = 'deviljho'
+// hitboxDeviljho.visible = false
+// scene.add(hitboxDeviljho)
 
 
-const hitboxBarroth = new THREE.Mesh(
-    new THREE.BoxGeometry(10, 1, 15),
-    new THREE.MeshNormalMaterial()
-)
-hitboxBarroth.position.set(- 35, 0.5, - 215)
-hitboxBarroth.visible = false
-scene.add(hitboxBarroth)
+// const hitboxBarroth = new THREE.Mesh(
+//     new THREE.BoxGeometry(10, 1, 15),
+//     new THREE.MeshNormalMaterial()
+// )
+// hitboxBarroth.position.set(- 35, 0.5, - 215)
+// hitboxBarroth.visible = false
+// scene.add(hitboxBarroth)
 
-const hitboxKebil2 = new THREE.Mesh(
-    new THREE.BoxGeometry(10, 1, 15),
-    new THREE.MeshNormalMaterial()
-)
-hitboxKebil2.position.set(- 73, 0.5, - 306)
-hitboxKebil2.visible = false
-scene.add(hitboxKebil2)
-
-
-const hitboxBaggi = new THREE.Mesh(
-    new THREE.BoxGeometry(10, 1, 15),
-    new THREE.MeshNormalMaterial()
-)
-hitboxBaggi.position.set(- 73, 0.5, - 337)
-hitboxBaggi.visible = false
-scene.add(hitboxBaggi)
+// const hitboxKebil2 = new THREE.Mesh(
+//     new THREE.BoxGeometry(10, 1, 15),
+//     new THREE.MeshNormalMaterial()
+// )
+// hitboxKebil2.position.set(- 73, 0.5, - 306)
+// hitboxKebil2.visible = false
+// scene.add(hitboxKebil2)
 
 
-const hitboxKelbi = new THREE.Mesh(
-    new THREE.BoxGeometry(10, 1, 15),
-    new THREE.MeshNormalMaterial()
-)
-hitboxKelbi.position.set(- 73, 0.5, - 368)
-hitboxKelbi.visible = false
-scene.add(hitboxKelbi)
+// const hitboxBaggi = new THREE.Mesh(
+//     new THREE.BoxGeometry(10, 1, 15),
+//     new THREE.MeshNormalMaterial()
+// )
+// hitboxBaggi.position.set(- 73, 0.5, - 337)
+// hitboxBaggi.visible = false
+// scene.add(hitboxBaggi)
 
 
-const hitboxPopo = new THREE.Mesh(
-    new THREE.BoxGeometry(10, 1, 15),
-    new THREE.MeshNormalMaterial()
-)
-hitboxPopo.position.set(65, 0.5, - 305)
-hitboxPopo.visible = false
-scene.add(hitboxPopo)
+// const hitboxKelbi = new THREE.Mesh(
+//     new THREE.BoxGeometry(10, 1, 15),
+//     new THREE.MeshNormalMaterial()
+// )
+// hitboxKelbi.position.set(- 73, 0.5, - 368)
+// hitboxKelbi.visible = false
+// scene.add(hitboxKelbi)
 
 
-const hitboxDelex = new THREE.Mesh(
-    new THREE.BoxGeometry(10, 1, 15),
-    new THREE.MeshNormalMaterial()
-)
-hitboxDelex.position.set(65, 0.5, - 337)
-hitboxDelex.visible = false
-scene.add(hitboxDelex)
+// const hitboxPopo = new THREE.Mesh(
+//     new THREE.BoxGeometry(10, 1, 15),
+//     new THREE.MeshNormalMaterial()
+// )
+// hitboxPopo.position.set(65, 0.5, - 305)
+// hitboxPopo.visible = false
+// scene.add(hitboxPopo)
 
 
-const hitboxGiggi = new THREE.Mesh(
-    new THREE.BoxGeometry(10, 1, 15),
-    new THREE.MeshNormalMaterial()
-)
-hitboxGiggi.position.set(65, 0.5, - 368)
-hitboxGiggi.visible = false
-scene.add(hitboxGiggi)
+// const hitboxDelex = new THREE.Mesh(
+//     new THREE.BoxGeometry(10, 1, 15),
+//     new THREE.MeshNormalMaterial()
+// )
+// hitboxDelex.position.set(65, 0.5, - 337)
+// hitboxDelex.visible = false
+// scene.add(hitboxDelex)
 
 
-const hitboxAgnaktor = new THREE.Mesh(
-    new THREE.BoxGeometry(10, 1, 15),
-    new THREE.MeshNormalMaterial()
-)
-hitboxAgnaktor.position.set(0, 0.5, - 300)
-hitboxAgnaktor.visible = false
-scene.add(hitboxAgnaktor)
+// const hitboxGiggi = new THREE.Mesh(
+//     new THREE.BoxGeometry(10, 1, 15),
+//     new THREE.MeshNormalMaterial()
+// )
+// hitboxGiggi.position.set(65, 0.5, - 368)
+// hitboxGiggi.visible = false
+// scene.add(hitboxGiggi)
 
+
+// const hitboxAgnaktor = new THREE.Mesh(
+//     new THREE.BoxGeometry(10, 1, 15),
+//     new THREE.MeshNormalMaterial()
+// )
+// hitboxAgnaktor.position.set(0, 0.5, - 300)
+// hitboxAgnaktor.visible = false
+// scene.add(hitboxAgnaktor)
+
+// const h5 = document.querySelector('h5')
+
+// const mouse = new THREE.Vector2();
+
+// let onMouseMove = (_event) => {
+//   mouse.x = (_event.clientX / window.innerWidth) * 2 - 1;
+//   mouse.y = -(_event.clientY / window.innerHeight) * 2 + 1;
+// }
+
+// window.addEventListener("mousemove", onMouseMove, false)
+
+// const infosDeviljho = document.querySelector('.infosDeviljho')
+
+// const raycaster = new THREE.Raycaster()
 
 /**
  * Resize
@@ -1370,20 +1384,7 @@ window.addEventListener('resize', () =>
 /**
  * Loop
  */
-const h5 = document.querySelector('h5')
 
-const mouse = new THREE.Vector2();
-
-let onMouseMove = (_event) => {
-  mouse.x = (_event.clientX / window.innerWidth) * 2 - 1;
-  mouse.y = -(_event.clientY / window.innerHeight) * 2 + 1;
-}
-
-window.addEventListener("mousemove", onMouseMove, false)
-
-const infosDeviljho = document.querySelector('.infosDeviljho')
-
-const raycaster = new THREE.Raycaster()
 const loop = () =>
 {
     window.requestAnimationFrame(loop)
@@ -1415,34 +1416,34 @@ const loop = () =>
     
     prevTime = time
 
-    let targetList = []
+    // let targetList = []
 
-    targetList.push(hitboxDiablo, hitboxRathaloss, hitboxUragaan, hitboxDeviljho, hitboxBarroth, hitboxKebil2, hitboxBaggi, hitboxKelbi, hitboxPopo, hitboxGiggi, hitboxDelex, hitboxAgnaktor)
-    raycaster.setFromCamera(mouse, camera)
+    // targetList.push(hitboxDiablo, hitboxRathaloss, hitboxUragaan, hitboxDeviljho, hitboxBarroth, hitboxKebil2, hitboxBaggi, hitboxKelbi, hitboxPopo, hitboxGiggi, hitboxDelex, hitboxAgnaktor)
+    // raycaster.setFromCamera(mouse, camera)
 
-    let intersects = raycaster.intersectObjects(targetList, true)
-    if (intersects.length > 0) {
-        h5.style.display = "block"
-    }
+    // let intersects = raycaster.intersectObjects(targetList, true)
+    // if (intersects.length > 0) {
+    //     h5.style.display = "block"
+    // }
     
-    document.addEventListener('keydown', (event) => {
-        if (intersects.length > 0 && event.keyCode === 69) {
-            // keys[69] = E key
-            if(infosDeviljho.classList.contains('infosDeviljho'))
-            {
-                h5.style.display = "none"
-                infosDeviljho.classList.remove('infosDeviljho')
-                infosDeviljho.classList.add('infosDeviljhoVisible')
-                intersects = []
-            }
-            else{
-                h5.style.display = "none"
-                infosDeviljho.classList.remove('infosDeviljhoVisible')
-                infosDeviljho.classList.add('infosDeviljho')
-                intersects = []
-            }
-        }
-    })
+    // document.addEventListener('keydown', (event) => {
+    //     if (intersects.length > 0 && event.keyCode === 69) {
+    //         // keys[69] = E key
+    //         if(infosDeviljho.classList.contains('infosDeviljho'))
+    //         {
+    //             h5.style.display = "none"
+    //             infosDeviljho.classList.remove('infosDeviljho')
+    //             infosDeviljho.classList.add('infosDeviljhoVisible')
+    //             intersects = []
+    //         }
+    //         else{
+    //             h5.style.display = "none"
+    //             infosDeviljho.classList.remove('infosDeviljhoVisible')
+    //             infosDeviljho.classList.add('infosDeviljho')
+    //             intersects = []
+    //         }
+    //     }
+    // })
 
     // Render
     renderer.render(scene, camera)
