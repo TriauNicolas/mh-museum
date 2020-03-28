@@ -1393,8 +1393,8 @@ const loop = () =>
     const time = performance.now()
     const delta = ( time - prevTime ) / 1000
     
-    velocity.x -= velocity.x * 14.0 * delta
-    velocity.z -= velocity.z * 14.0 * delta
+    velocity.x -= velocity.x * 10.0 * delta
+    velocity.z -= velocity.z * 10.0 * delta
     
     direction.z = Number( moveForward ) - Number ( moveBackward )
     direction.x = Number( moveRight ) - Number ( moveLeft )
